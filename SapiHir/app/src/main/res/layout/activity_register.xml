@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.tms.sapihir.RegisterActivity">
+
+    <EditText
+        android:id="@+id/teljes_nev"
+
+        android:layout_width="wrap_content"
+
+        android:layout_height="54dp"
+
+
+        android:layout_above="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:ems="10"
+        android:hint="Teljes Nev"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/guideline"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        android:layout_above="@+id/password1"
+        android:layout_alignStart="@+id/password1"
+        android:layout_marginBottom="22dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="90dp" />
+
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_above="@+id/password2"
+        android:layout_alignStart="@+id/password2"
+        android:layout_marginBottom="35dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="172dp" />
+
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="wrap_content"
+        android:layout_height="54dp"
+        android:layout_above="@+id/Register_button"
+        android:layout_alignStart="@+id/teljes_nev"
+        android:layout_marginBottom="26dp"
+        android:ems="10"
+        android:hint="Password  megegyszer"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        tools:layout_editor_absoluteX="19dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/Register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="81dp"
+        android:text="REGISZTRACIO"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="343dp" />
+
+    <Button
+        android:id="@+id/tomain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="A hirdetesekhez" />
+
+
+</RelativeLayout>

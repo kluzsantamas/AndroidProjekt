@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "553668523218",
+    "firebase_url": "https://sapihir-df738.firebaseio.com",
+    "project_id": "sapihir-df738",
+    "storage_bucket": "sapihir-df738.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553668523218:android:1071861203638b9a",
+        "android_client_info": {
+          "package_name": "com.example.tms.sapihir"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553668523218-appo4s4r6a6s3lvhv84tkq9uqs9pn34o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tms.sapihir",
+            "certificate_hash": "01366228b30d5f871f72480f0c39eafd1d914d85"
+          }
+        },
+        {
+          "client_id": "553668523218-con40ag5e5b9u4aauheopmj5gjm6b0nr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSNIteTYYU_o1R16u0OISlzHMXALjfmyA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553668523218-con40ag5e5b9u4aauheopmj5gjm6b0nr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
